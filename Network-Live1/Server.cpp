@@ -23,9 +23,6 @@ int main() {
 	int iResult;
 	int iSendResult;
 
-	// Exit
-	const char* exit = "exit";
-
 	// Socket Declaration
 	SOCKET ListenSocket = INVALID_SOCKET;
 	SOCKET ClientSocket = INVALID_SOCKET;

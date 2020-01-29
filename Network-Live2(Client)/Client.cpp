@@ -14,9 +14,9 @@
 #pragma comment(lib, "Ws2_32.lib")
 
 #define DEFAULT_BUFLEN 512
-#define EXIT "exit"
 #define DEFAULT_PORT "27016"
 #define DEFAULT_HOST "localhost"
+#define EXIT "exit"
 
 int main() {
 	WSADATA wsaData;
@@ -24,8 +24,6 @@ int main() {
 	SOCKET ConnectSocket = INVALID_SOCKET;
 
 	int iResult;
-	bool isExit = false;
-
 	char sendbuf[] = "hello world";
 	char recvbuf[DEFAULT_BUFLEN];
 	int recvbuflen = DEFAULT_BUFLEN;
