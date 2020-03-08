@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include <iostream>
 #include <string>
+#include <ctime>
 
 #pragma comment(lib, "Ws2_32.lib")
 
