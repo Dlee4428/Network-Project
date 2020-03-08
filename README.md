@@ -1,2 +1,3 @@
 # Network-Project
- WinSock Client and Server Chatting but server cannot respond back
+All Projects related to Winsock Server and Clients
+Built in C++
